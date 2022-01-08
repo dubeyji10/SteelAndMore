@@ -1,6 +1,6 @@
 h1{
     font-size: larger;
-    color: #fa6e6e;
+    color: #6efa81;
 }
 h2{
     font-size: small;
@@ -12,7 +12,7 @@ h3{
 }
 body{
     /* background-color: rgba(255,255,255,0); */
-    background-image: url('bgimgGrayscale.jpg') ;
+    background: url("bgimgGrayscale.jpg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
