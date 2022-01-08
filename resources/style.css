@@ -1,5 +1,9 @@
 h1{
+<<<<<<< HEAD
     font-size: 300;
+=======
+    font-size: larger;
+>>>>>>> 2466e92ffe30cb8e8d5f4d61078a1bdcb4cd58d5
     color: #6efa81;
 }
 h2{
@@ -12,7 +16,11 @@ h3{
 }
 body{
     /* background-color: rgba(255,255,255,0); */
+<<<<<<< HEAD
     background-image: url("bgimgGrayscale.jpg") ;
+=======
+    background: url("bgimgGrayscale.jpg") ;
+>>>>>>> 2466e92ffe30cb8e8d5f4d61078a1bdcb4cd58d5
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
