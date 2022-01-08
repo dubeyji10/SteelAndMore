@@ -1,9 +1,6 @@
 h1{
-<<<<<<< HEAD
     font-size: 300;
-=======
     font-size: larger;
->>>>>>> 2466e92ffe30cb8e8d5f4d61078a1bdcb4cd58d5
     color: #6efa81;
 }
 h2{
@@ -14,16 +11,20 @@ h3{
     font-size: small;
     color: #f79f2c;
 }
+
+html, body {
+	/* height: 100%; */
+	height: 100vh;
+}
+
 body{
     /* background-color: rgba(255,255,255,0); */
-<<<<<<< HEAD
     background-image: url("bgimgGrayscale.jpg") ;
-=======
     background: url("bgimgGrayscale.jpg") ;
->>>>>>> 2466e92ffe30cb8e8d5f4d61078a1bdcb4cd58d5
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+	background-color: #f01a1a;
     /* background-webkit-filter: grayscale(100); */
     /* -webkit-filter: grayscale(100%); */
     /* filter: grayscale(1);
@@ -32,4 +33,406 @@ body{
     /* filter: grayscale(100%);
     background-blend-mode: saturation; */
 
+}
+
+/* added now */
+
+img {
+	vertical-align: middle;
+}
+
+::-moz-selection {
+	background: #f2c2c9;
+	color: #a4003a;
+	text-shadow: none;
+   }
+::selection {
+	   background: #16a085;
+	   color: #a4003a;
+	   text-shadow: none;
+   }
+
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	margin: 3em 0;
+	padding: 0;
+	background-image: -webkit-linear-gradient(left, #fff, #ccc, #fff);
+	background-image: -moz-linear-gradient(left, #fff, #ccc, #fff);
+	background-image: -ms-linear-gradient(left, #fff, #ccc, #fff);
+	background-image: -o-linear-gradient(left, #fff, #ccc, #fff);
+	width: 50%;
+	left: 25%;
+	position: relative;
+	border: none;
+}
+
+ 
+textarea {
+	resize: vertical;
+}
+
+
+
+
+/*
+
+ addded from coffee example
+ 
+
+*/
+
+
+/* navbar or header  */
+
+.logo a {
+	margin: 0 auto; 
+	display: inline-block; 
+	} 
+.logo a img{
+	background:transparent;
+	}
+.navbar-inverse {
+	background-color: #FFFFFF;
+	border-color: rgba(127, 90, 5, 1);
+	padding: 20px 0;
+	}
+.navbar-inverse .navbar-nav > li > a {
+	color: #1B0B03;
+	}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #1B0B03;
+	}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color: #080808;
+	border-radius: 15px 0px 15px 0px;
+	}
+.navbar-inverse .navbar-toggle {
+	border-color: #333;
+	background: rgb(31, 14, 7);
+	}
+.tb {
+	display: table;
+	width: 100%;
+	}
+.tb-cell {
+	display: table-cell;
+	vertical-align: middle;
+	}
+.text-center {
+	text-align: center;
+	}
+	
+	
+.col-md-4 {
+		padding-bottom: 20px;
+	}
+.row {
+		margin-right: 0px;
+		margin-left: -15px;
+	}
+.modal-header {
+		background: #E89A2F;
+	}
+.modal-header h4 {
+		color: white;
+		font-weight: 700;
+		letter-spacing: 1px;
+	}
+.modal-footer {
+		background: #2b2b2b;
+	}
+.navbar-default {
+		border-color: transparent;
+		background-color: #dadada;
+	}
+.navbar-inverse .navbar-brand {
+		font-weight: 500;
+		font-size: 20px;
+	}
+.navbar-toggle {
+		border-color: transparent;
+		border: 0px solid transparent;
+	}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+		background-color: #16a085;
+		color: white;
+	}
+a img {
+		background: white;
+	}
+.odd a img {
+		background: #f5f5f5;
+	}
+	/* Titles */
+h1, h2, h3, h4, h5, h6 {
+		font-family: "Raleway";
+		font-weight: 200;
+		color: #333;
+	}
+h2 {
+		font-size: 36px;
+		color: #E89A2F;
+	}
+h3 {
+		font-size: 26px;
+	}
+	/* Paragraph & Typographic */
+p {
+		line-height: 28px;
+		margin-bottom: 20px;
+		font-size: 15px;
+}
+p.large {
+		font-size: 16px;
+		margin-bottom: 50px;
+	}
+.centered {
+		text-align: center;
+	}
+strong {
+		font-weight: 700;
+	}
+em {
+		font-weight: 300;
+	}
+pre {
+		background: #ebebeb;
+		border: none; 
+		font-size: 16px;
+		color: #666;
+		padding: 20px;
+		line-height: 28px;
+	}
+small {
+		font-size: 12px;
+	}
+blockquote, blockquote p {
+		line-height: 28px;
+		color: #999;
+		font-weight: 300;
+		font-style: italic;
+	}
+blockquote {
+		position: relative;
+		margin: 0 0 40px -30px;
+		padding-left: 30px;
+		border-left: 5px solid #3498db;
+	}
+blockquote cite {
+		position: absolute;
+		bottom: -25px;
+		right: 0;
+		font-size: 12px;
+		font-style: italic;
+		color: #333;
+		font-weight: 300;
+	}
+blockquote cite:before {
+		content: "-- "
+	}
+	/* Images */
+/* .overflow-image {
+		margin-top: -65px;
+	} */
+	/* Links */
+a {
+		color: #4abcc5;
+		word-wrap: break-word;
+		-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+		-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+		-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+		-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+		transition: color 0.1s ease-in, background 0.1s ease-in;
+	}
+a:hover, a:focus {
+		color: #c0392b;
+		text-decoration: none;
+		outline: 0;
+	}
+a:before, a:after {
+		-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+		-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+		-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+		-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+		transition: color 0.1s ease-in, background 0.1s ease-in;
+	} 
+
+	
+
+
+
+
+
+/* content white */
+
+
+.content_white {
+    text-align: center;
+    padding: 3em 0;
+    }
+.content_white {
+    text-align: center;
+    padding: 3em 0;
+}
+
+.div-pattern2{
+	/* background:url('../img/div-pattern2.png') top left repeat-x; */
+	background: #2dd481 top left repeat-x;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	/* padding: 6px 15px; */
+	height:30px;
+	width:100%;
+	display:block;
+}
+
+
+/* footer  */
+
+#footerwrap {
+	background: #131614;
+/* try fixing footer position */
+	position: relative;
+	padding: 25px 0 15px 0;
+	/* padding: -25px -50px -15px -10px; */
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+#footerwrap span.copyright {
+	line-height: 40px;
+	color: rgb(238, 105, 105);
+	position: relative;
+	font-weight: 400;
+}
+#footerwrap span.copyright a {
+	color: rgb(192, 99, 99);
+	position: relative;
+	border-bottom: 1px dotted;
+}
+#footerwrap span.copyright a:hover {
+	color: #ffbf00;
+	position: relative;
+	text-decoration: none;
+}
+#footerwrap h4 {
+	position: relative;
+	color: white;
+}
+ul.social-buttons {
+	margin: 0;
+	list-style-type: none;
+	color: #eee;
+ /* to hide bullets */
+}
+ul.social-buttons li a {
+	font-size: 22px;
+	outline: 0;
+	color: #FFFFFF;
+	margin-right: 12px;
+	list-style-type: none;
+}
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+	color: #ffbf00;
+	list-style-type: none;
+
+} 
+
+.white h1 {
+	color: #999;
+}
+.white p {
+	padding-top: 15px;
+} 
+
+.grid figure {
+	margin: 0;
+	position: relative;
+	border: 1px solid #eee;
+}
+.grid figure img {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	color: #fff;
+	background-color: rgba(216, 169, 27, 0.81);
+}
+.grid figcaption h5 {
+	margin: 0;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	color: #fff;
+	font-weight: 700;
+	text-align: left;
+	letter-spacing: 1px;
+	font-size:24px;
+}
+.grid figcaption a {
+	text-align: left;
+	padding: 5px 10px;
+	margin-left: 20px;
+	display: inline-block;
+	background: #2f2f2f;
+	color: #F27E00;
+	font-size: 13px;
+	background: #fff;
+}
+ 
+.overlay figure {
+	overflow: hidden;
+}
+.overlay figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+.no-touch .overlay figure:hover img, .overlay figure.cs-hover img {
+	-webkit-transform: translateY(-30px);
+	-moz-transform: translateY(-30px);
+	-ms-transform: translateY(-30px);
+	transform: translateY(-30px);
+}
+.overlay figcaption {
+	height: 100%;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+.no-touch .overlay figure:hover figcaption, .overlay figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.overlay figcaption a {
+position: absolute;
+/* top: 10px; */
+bottom: 10px;
+right: 30px;
+background: #000;
+color: #fff;
+border-radius: 0px;
+padding: 6px 15px;
 }
